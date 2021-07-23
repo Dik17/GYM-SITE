@@ -1,0 +1,151 @@
+body{
+  margin:0px;
+  padding:0px;
+  background: url('https://cdn.pixabay.com/photo/2016/05/27/22/30/workout-1420741__340.jpg') no-repeat ;
+
+background-size: 100% ;
+
+}
+.left img{
+  height: 50px;
+  width:60px;
+}
+.left{
+  display: inline-block;
+  position: absolute;
+left: 30px;
+  top: 10px;
+}
+.mid{
+display:block;
+width: 50%;
+margin:12px auto;
+}
+.right{
+  display: inline-block;
+  position: absolute;
+  right: 70px;
+  top: 2px;
+  margin-left:  20px;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar li a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+font-size: 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration:underline;
+
+  color:#F5C6AA;
+}
+.btn {
+  background: #F5C6AA;
+  background-image: -webkit-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: -moz-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: -ms-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: -o-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: linear-gradient(to bottom, #F5C6AA, #F5C6AA);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFA0A0;
+  background-image: -webkit-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: -moz-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: -ms-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: -o-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: linear-gradient(to bottom, #FFA0A0, #FFA0A0);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn1 {
+  background: #F5C6AA;
+  background-image: -webkit-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: -moz-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: -ms-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: -o-linear-gradient(top, #F5C6AA, #F5C6AA);
+  background-image: linear-gradient(to bottom, #F5C6AA, #F5C6AA);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius:15px;
+  font-family: Georgia;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+margin: 20px;
+cursor: pointer;
+}
+
+.btn1:hover {
+  background: #FFA0A0;
+  background-image: -webkit-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: -moz-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: -ms-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: -o-linear-gradient(top, #FFA0A0, #FFA0A0);
+  background-image: linear-gradient(to bottom, #FFA0A0, #FFA0A0);
+  text-decoration: none;
+}
+.container{
+  margin: 11px auto;
+  padding: 2px 2px;
+
+}
+.container h1{
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 67px;
+}
+.form-grp input{
+  text-align: center;
+  display: block;
+  padding: 1px;
+  width:20%;
+  border:2px solid black;
+  margin: 3px auto;
+  border-radius: 23px;
+}
+.topo {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Georgia;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 40%;
+  padding: 5px;
+}
+
+.topo:hover {
+  background: #628395;
+  background-image: -webkit-linear-gradient(top, #628395, #628395);
+  background-image: -moz-linear-gradient(top, #628395, #628395);
+  background-image: -ms-linear-gradient(top, #628395, #628395);
+  background-image: -o-linear-gradient(top, #628395, #628395);
+  background-image: linear-gradient(to bottom, #628395, #628395);
+  text-decoration: none;
+}
